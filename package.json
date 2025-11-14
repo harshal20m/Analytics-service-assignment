@@ -1,0 +1,27 @@
+{
+    "name": "analytics-service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "worker": "nodemon src/worker.js",
+        "dev:all": "concurrently \"npm run dev\" \"npm run worker\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bull": "^4.16.5",
+        "concurrently": "^9.2.1",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "^5.1.0",
+        "mongoose": "^8.19.3",
+        "redis": "^5.9.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.11"
+    }
+}
