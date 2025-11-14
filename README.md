@@ -13,6 +13,10 @@ High-performance backend service for capturing and analyzing website analytics e
 
 ---
 
+## Important 
+**You must first install redis for this** 
+- Link[https://www.memurai.com/thanks-for-downloading?version=windows-redis]
+
 ## 🏗️ Architecture
 
 The system uses an asynchronous, message-queue pattern to ensure fast response times for event ingestion.
