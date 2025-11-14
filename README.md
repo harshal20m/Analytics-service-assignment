@@ -80,7 +80,7 @@ To run this project, create a .env ironment file in the root directory and add t
 1. **Clone the repository:**
 
     ```bash
-    git clone
+    git clone https://github.com/harshal20m/Analytics-service-assignment.git
     cd analytics-service
     ```
 
